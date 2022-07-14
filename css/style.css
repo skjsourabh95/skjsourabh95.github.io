@@ -9615,6 +9615,7 @@ textarea.form-control {
 	border: 1px solid rgba(255, 255, 255, .5);
 	color: rgba(255, 255, 255, .8);
 }
+
 #ftco-loader {
   position: fixed;
   width: 96px;
@@ -9674,6 +9675,7 @@ textarea.form-control {
   animation: loader-dash 1.5s ease-in-out infinite;
   stroke-linecap: round; }
 
+  
 @-webkit-keyframes loader-rotate {
   100% {
     -webkit-transform: rotate(360deg);
@@ -9705,3 +9707,9 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+.wave {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
